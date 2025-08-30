@@ -1,31 +1,34 @@
-# Shopping List App (React + TS + Vite + Redux + JSON Server)
+# Shopping List App 🛒
 
-Meets the full brief:
-- Register/Login (AES encrypted passwords using crypto-js)
-- Protected routes
-- Profile (view/update fields + change password)
-- CRUD shopping lists (name, quantity, notes, category, image upload)
-- Search + Sort synced with URL (`q`, `sort`) and reactive to URL changes
-- Share list public link `/share/:id`
-- Redux Toolkit for state
-- JSON Server for persistence
-- React-Toastify notifications
-- At least 3 class components (NavBar, ShoppingListItem; convert more if desired)
+A simple and responsive shopping list application built with **React + TypeScript + Redux Toolkit** and styled with **Tailwind CSS**.
 
-## Quick start
+## Features
+- User Registration: Register with **Email, Password, Name, Surname, Cell Number**
+- Login/Logout functionality
+- Create and manage multiple shopping lists
+- Add, edit, and remove items
+- Persisted data using **JSON Server** (`db.json`)
+- Responsive and modern UI with Tailwind
+
+## Tech Stack
+- React + TypeScript
+- Redux Toolkit
+- Tailwind CSS
+- JSON Server (mock backend)
+- Vite (for fast development)
+
+## Installation
 ```bash
+# Clone repository
+git clone https://github.com/YOUR-USERNAME/shopping-list-app.git
+
+cd shopping-list-app
+
+# Install dependencies
 npm install
-npm run server   # http://localhost:5000
-npm start        # http://localhost:3000
-```
-Use the seeded account to test:
-- Email: `demo@example.com`
-- Password: `demo-secret-key` (if not working, register a new user)
 
-## Branching
-- Work on `dev` branch and commit frequently.
-- Open PRs to `main` after review.
+# Start frontend
+npm run dev
 
-## Notes
-- Encryption is demo-only (AES); do not use in production.
-- Images are stored as Base64 in `db.json`.
+# Start backend (JSON server)
+npm run server
