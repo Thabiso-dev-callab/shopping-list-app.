@@ -20,7 +20,7 @@ A simple and responsive shopping list application built with **React + TypeScrip
 ## Installation
 ```bash
 # Clone repository
-git clone https://github.com/YOUR-USERNAME/shopping-list-app.git
+git clone https://github.com/Thabiso-dev-callab/shopping-list-app..git
 
 cd shopping-list-app
 
